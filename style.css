@@ -1,0 +1,95 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.formatoBody {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*height: calc( 100vH - 137px - 128px);*/
+
+}
+
+.card {
+
+  padding: 20px;
+  display: inline-block;
+  max-width: 300px;
+  text-align: center;
+  border-color: blue;
+
+
+}
+
+.eliminarBoton {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+
+
+.card button {
+
+  padding: 15px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.formatoHeader {
+  /*height: 137px;*/
+  text-align: center;
+  padding: 50px;
+  background-color: blueviolet;
+  color: bisque;
+}
+
+.formatoFooter {
+  /* height: 128px;*/
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 50px;
+  text-align: center;
+
+  background-color: blueviolet;
+  color: bisque;
+}
+
+#listContainer {
+  max-height: 238px;
+  overflow-y: auto;
+}
+
+.listaDeCarrito {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.textoProductos {
+  color: blueviolet;
+  font-size: larger;
+}
+
+.botonEliminar{
+  padding: 4px ;  
+  margin: 1px;
+  border-radius: 10px;
+}
